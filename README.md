@@ -13,7 +13,7 @@ python train.py --data_directory /path/to/train
     * Use GPU for training: ```python train.py --data_dir /path/to/train --gpu```
     
 ### For **Prection** using the trained model
- By using the trained checkpoint/model single image of flower is predicted, and return flower name and class probability. The flower image for prediction can be obtained from the test folder of the dataset.
+ By using the trained checkpoint/model, single image of flower is predicted, and return flower name and class probability. The flower image for prediction can be obtained from the test folder of the dataset.
 ```
 python predict.py --input_img /path/to/test/ --checkpoint /checkpoint.pth
 ```
